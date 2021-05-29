@@ -1,13 +1,2 @@
-[[source]]
-url = "https://pypi.python.org/simple"
-verify_ssl = true
-name = "pypi"
+gunicorn -b :5000 --access-logfile - --error-logfile - build:app
 
-[packages]
-flask-sqlalchemy = "*"
-flask-migrate = "*"
-
-[dev-packages]
-
-[requires]
-python_version = "3.8"
