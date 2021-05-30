@@ -1,1 +1,16 @@
-web: gunicorn gettingstarted.wsgi
+
+gunicorn
+django-heroku
+Babel
+backcall
+flake8
+Flask
+Flask-Cors
+flask-shell-ipython
+fsspec
+more-itertools
+mpmath
+msgpack
+numexpr
+numpy
+
